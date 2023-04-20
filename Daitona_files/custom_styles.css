@@ -5,6 +5,46 @@
     background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80));
     background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80));
     background-image: linear-gradient(top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80));
-    
-    
+}
+
+.uparrow {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 5px;
+    font-size: 38px;
+    color: #000000
+}
+
+.uparrow_container {
+    display: block;
+    z-index: 100;
+    position: fixed;
+    right: 1vw;
+    bottom: 1vh
+}
+.price-header{
+    cursor: pointer;
+    font-size:32px;
+    line-height:1.5;
+    margin-left: 1vw;
+}
+.price-text{
+    cursor: default;
+    font-size: 20px;
+    margin-left: 3vw;
+}
+.visible
+{
+    content-visibility: visible;
+}
+.hidden
+{
+    content-visibility: hidden;
+}
+@media(max-width: 1215px)
+{
+    .price-text
+    {
+        font-size: 1.64vw;
+    }
 }
