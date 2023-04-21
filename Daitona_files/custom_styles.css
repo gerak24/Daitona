@@ -1,3 +1,26 @@
+* {
+    cursor: default;
+}
+
+a {
+    text-decoration: none
+}
+
+.sociallink_svg {
+    cursor: pointer;
+}
+
+.yell-widget,.yell-widget-text,.yell-widget-logo,.yell-widget-rating,.yell-widget-rating-bar,.yell-widget-rating-value,.yell-widget-more{
+    cursor: pointer;
+}
+
+.red_but {
+    color: #ffffff;
+    background-color: #f5272e;
+    -webkit-border-radius: 30px;
+    align-items: center;
+}
+
 .upblock__filter {
     height: 100vh !important;
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80));
@@ -22,29 +45,54 @@
     right: 1vw;
     bottom: 1vh
 }
-.price-header{
+
+.price-header {
     cursor: pointer;
-    font-size:32px;
-    line-height:1.5;
+    font-size: 32px;
+    line-height: 1.5;
     margin-left: 1vw;
 }
-.price-text{
+
+.price-text {
     cursor: default;
     font-size: 20px;
     margin-left: 3vw;
+    overflow: hidden;
 }
-.visible
-{
-    content-visibility: visible;
+
+.visible {
+    transition: 1s;
 }
-.hidden
-{
-    content-visibility: hidden;
+
+.hidden {
+    transition: 1s;
+    height: 0px;
+
 }
-@media(max-width: 1215px)
-{
-    .price-text
-    {
+
+.t-menu__link-item {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none
+}
+
+@media (max-width: 1215px) {
+    .price-text {
         font-size: 1.64vw;
+    }
+}
+@keyframes  forwards
+{
+    0%
+    {
+        height: 0px;
+        overflow: hidden;
+    }   
+    100%
+    {
+        height: auto;
+        overflow: auto;
     }
 }
