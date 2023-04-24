@@ -35,7 +35,8 @@ a {
     height: 3vw;
     border-radius: 5px;
     font-size: 38px;
-    color: #000000
+    color: #000000;
+    cursor: pointer;
 }
 
 .uparrow_container {
