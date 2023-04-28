@@ -158,7 +158,7 @@ img:not([src]) {
 .t-descr {
     font-family: 'TildaSans', Arial, sans-serif;
     font-weight: 300;
-    color: #000000
+    color: #000000;
 }
 
 .t-descr_xxs {
